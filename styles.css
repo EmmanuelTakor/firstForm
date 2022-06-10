@@ -1,0 +1,39 @@
+.page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.formContainer{
+    background-color: aliceblue;
+    height: 60vh;
+    width: 20vw;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+input{
+    padding: 5%;
+    border: none;
+    margin-bottom: 5%;
+    border-radius: 50px;
+}
+.buttonSection{
+
+    margin-top: 50%;
+    display: flex;
+    justify-content:center ;
+}
+.buttonSection button{
+    border: none;
+    padding: 6% 25%;
+
+}
